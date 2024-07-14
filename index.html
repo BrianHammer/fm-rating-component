@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body
+    class="text-white bg-very-dark-blue font-main font-normal w-full h-screen leading-7"
+  >
+    <!-- Rating state start -->
+    <main class="w-full h-full flex items-center justify-center">
+      <!-- Card -->
+      <div
+        class="bg-dark-blue rounded-3xl flex flex-col gap-6 p-6 max-w-96 bg-[radial-gradient(closest-side, bg-gradient-radial from-dark-blue to-very-dark-blue/50"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center"
+        >
+          <img src="images/icon-star.svg" class="w-4 h-4" />
+        </div>
+
+        <h1 class="text-3xl font-bold">How did we do?</h1>
+
+        <p class="text-light-gray font-normal">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <div
+          class="gap-4 flex flex-row items-center justify-between text-light-gray"
+        >
+          <a
+            href="#"
+            class="h-12 w-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover hover:text-very-dark-blue transition-colors duration-300"
+          >
+            <span class="text-center">1</span>
+          </a>
+          <a
+            href="#"
+            class="h-12 w-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover hover:text-very-dark-blue transition-colors duration-300"
+          >
+            <span class="text-center">2</span>
+          </a>
+          <a
+            href="#"
+            class="h-12 w-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover hover:text-very-dark-blue transition-colors duration-300"
+          >
+            <span class="text-center">3</span>
+          </a>
+          <a
+            href="#"
+            class="h-12 w-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover hover:text-very-dark-blue transition-colors duration-300"
+          >
+            <span class="text-center">4</span>
+          </a>
+          <a
+            href="#"
+            class="h-12 w-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover hover:text-very-dark-blue transition-colors duration-300"
+          >
+            <span class="text-center">5</span>
+          </a>
+        </div>
+        <a
+          href="./thank-you.html"
+          class="p-4 bg-orange rounded-full text-very-dark-blue font-bold capitalize tracking-widest hover:bg-white transition-colors duration-300 text-center"
+        >
+          SUBMIT
+        </a>
+
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+      </div>
+    </main>
+    
+
+    <div class="absolute top-0 left-0 text-light-gray">
+      Challenge by
+      <a
+        class="text-orange hover:text-white transition-colors duration-300"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://github.com/BrianHammer"
+        class="text-orange hover:text-white transition-colors duration-300"
+        >Brian Hammer</a
+      >.
+    </div>
+  </body>
+</html>

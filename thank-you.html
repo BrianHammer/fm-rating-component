@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body
+    class="text-white bg-very-dark-blue font-main font-normal w-full h-screen leading-7"
+  >
+    <!-- Rating state start -->
+    <main class="w-full h-full flex items-center justify-center">
+      <!-- Card -->
+      <div
+        class="bg-dark-blue rounded-3xl flex flex-col items-center gap-6 p-6 max-w-96 bg-[radial-gradient(closest-side, bg-gradient-radial from-dark-blue to-very-dark-blue/60"
+      >
+        <div class="w-44 flex items-center justify-center">
+          <img src="images/illustration-thank-you.svg" class="object-fill" />
+        </div>
+
+        <div class="px-4 py-1 rounded-full bg-white/5 text-orange">
+          You selected 4 out of 5
+        </div>
+        <!-- Add rating here -->
+        <h1 class="font-bold text-2xl">Thank you!</h1>
+        <p class="text-center text-light-gray">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+
+        <!-- Thank you state end -->
+      </div>
+    </main>
+
+    <div class="absolute top-0 left-0 text-light-gray">
+      Challenge by
+      <a
+        class="text-orange hover:text-white transition-colors duration-300"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://github.com/BrianHammer"
+        class="text-orange hover:text-white transition-colors duration-300"
+        >Brian Hammer</a
+      >.
+    </div>
+  </body>
+</html>
